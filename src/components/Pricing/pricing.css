@@ -1,0 +1,19 @@
+.roundedButton {
+  border-radius: 0.75rem;
+  /* Add any other common styles you may have */
+}
+
+.roundedButton {
+  background-color: #45b34a;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  border: none;
+}
+
+.roundedButton:hover {
+  background-color: white;
+  color: #45b34a;
+  border: 1px solid #45b34a;
+}

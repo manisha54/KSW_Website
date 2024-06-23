@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  transition: none !important;
+}
+/* html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+} */
+
+@keyframes animation {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.animation {
+  animation: animation 4s ease forwards infinite; /* Adjust the animation duration and timing function as needed */
+}
+.rotation-131-deg {
+  rotate: 131deg;
+}
+.rotation-45-deg {
+  rotate: 45deg;
+}
+.rotation-145-deg {
+  rotate: 145deg;
+}
+
+.icons:hover {
+  color: #37abff; /* Change the color to your preferred blue */
+}
+.icon {
+  transition: box-shadow ease-in-out;
+}
+
+.icon:hover {
+  box-shadow: inset 0 0 0 2px #3a83f1; /* Blue inner border color */
+}
+
+.icon:focus {
+  outline: none;
+}
